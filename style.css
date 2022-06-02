@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'ZPublicaSans';
+  src: url(Assets/Fonts/ZPublicaSans.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ZPublicaSans';
+}
+
+a{
+  color: #077C67;
+  font-family: 'ZPublicaSans';
+  text-decoration: none;
+}
+
+h1{
+  color: #077C67;
+  font-family: 'ZPublicaSans';
+}
+
+html {
+  background-color: #E8E7DF;
+}
+
+.navbar-menu a{
+    font-size: 28px;
+}
+
+.navbar-menu{
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  gap: 35px;
+  color: #077C67;
+}
+
+.hero-content img{
+  
+  display: flex;
+  margin-left: 754px;
+}
+
+.hero-content h1{
+  margin-top: 244px
+}
+
+.hero-content a {
+  margin-bottom: 243px;
+}
+
+.best-seller-container h1{
+  text-align: center;
+}
